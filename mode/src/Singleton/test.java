@@ -44,6 +44,24 @@ public class test {
 		System.out.println(Singleton == singleton1);
 	}
 	
+	@Test
+	public void test05()
+	{
+		Singleton_5 singleton = Singleton_5.getInstance();
+		Singleton_5 singleton1 = Singleton_5.getInstance();
+		singleton.say();
+		System.out.println(singleton == singleton1);
+	}
+	
+	@Test
+	public void test06()
+	{
+		Singleton_6 singleton = Singleton_6.INSTANCE;
+		Singleton_6 singleton1 = Singleton_6.INSTANCE;
+		singleton.say();
+		System.out.println(singleton == singleton1);
+	}
+	
 	
 	
 
