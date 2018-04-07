@@ -1,8 +1,7 @@
-package Observer;
+﻿package Observer;
 
 /*
  * 具体被观察者角色：也就是一个具体的主题，在集体主题的内部状态改变时，所有登记过的观察者发出通知
- * 
  */
 import java.util.ArrayList;
 import java.util.List;
