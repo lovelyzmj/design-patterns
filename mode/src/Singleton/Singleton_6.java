@@ -1,4 +1,4 @@
-package Singleton;
+﻿package Singleton;
 
 
 /*
@@ -14,10 +14,10 @@ public enum Singleton_6 {
 	INSTANCE;
 	
 	public static void whateverMethod() {
-		
+		say();
 	}
 	
-	public void say()
+	public static void say()
 	{
 		System.out.println("i'm 枚举");
 	}

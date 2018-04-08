@@ -58,7 +58,7 @@ public class test {
 	{
 		Singleton_6 singleton = Singleton_6.INSTANCE;
 		Singleton_6 singleton1 = Singleton_6.INSTANCE;
-		singleton.say();
+		singleton.whateverMethod();
 		System.out.println(singleton == singleton1);
 	}
 	
